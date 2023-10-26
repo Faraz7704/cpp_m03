@@ -6,7 +6,7 @@
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 19:41:42 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/05 23:13:08 by fkhan            ###   ########.fr       */
+/*   Updated: 2023/10/26 20:18:06 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ void    ClapTrap::takeDamage(unsigned int amount)
 
 void    ClapTrap::beRepaired(unsigned int amount)
 {
-    if (_energyPoints <= amount)
+    if (_energyPoints <= 0)
     {
         std::cout << "ClapTrap " << _name << " is out of energy!" << std::endl;
         return;

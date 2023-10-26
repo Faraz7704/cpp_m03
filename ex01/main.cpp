@@ -6,7 +6,7 @@
 /*   By: fkhan <fkhan@student.42abudhabi.ae>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/05 18:48:48 by fkhan             #+#    #+#             */
-/*   Updated: 2023/02/07 14:45:02 by fkhan            ###   ########.fr       */
+/*   Updated: 2023/10/26 18:56:14 by fkhan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ int main(void)
     ash.beRepaired(10);
     ash.guardGate();
 
-    return EXIT_SUCCESS;
+    return 0;
 }
